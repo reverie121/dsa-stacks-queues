@@ -35,7 +35,7 @@ class Stack {
    * and return its value. Should throw an error if the stack is empty. */
 
   pop() {
-    let current = this.first;
+    let current = this.last;
 
     while (current.next !== null) {
       if (current.next === this.first) break;
